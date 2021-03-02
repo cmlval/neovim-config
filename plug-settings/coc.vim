@@ -135,7 +135,7 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 let g:coc_explorer_global_presets = {
 \   '.vim': {
-\     'root-uri': '~/.vim',
+\     'root-uri': '~/.config/nvim',
 \   },
 \   'cocConfig': {
 \      'root-uri': '~/.config/coc',
@@ -174,10 +174,11 @@ let g:coc_explorer_global_presets = {
 \ }
 
 " Use preset argument to open it
+nnoremap <space>ee :CocCommand explorer<CR>
 nnoremap <space>ed :CocCommand explorer --preset .vim<CR>
 nnoremap <space>ef :CocCommand explorer --preset floating<CR>
 nnoremap <space>ec :CocCommand explorer --preset cocConfig<CR>
 nnoremap <space>eb :CocCommand explorer --preset buffer<CR>
 
 " List all presets
-nnoremap <space>el :CocList explPresets
+nnoremap <space>el :CocList explPresets<CR>
