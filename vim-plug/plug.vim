@@ -14,7 +14,7 @@ Plug 'mhartington/oceanic-next'
 "visual
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'ryanoasis/vim-devicons'
 Plug 'lilydjwg/colorizer'
 Plug 'leafgarland/typescript-vim'
 Plug 'uiiaoo/java-syntax.vim'
@@ -39,9 +39,11 @@ Plug 'cespare/vim-toml'
 Plug 'vim-python/python-syntax'
 Plug 'mbbill/undotree'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'puremourning/vimspector'
 
 "code modification
 Plug 'scrooloose/nerdcommenter'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'honza/vim-snippets'
 Plug 'sirver/ultisnips'
 Plug 'jiangmiao/auto-pairs'

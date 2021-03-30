@@ -22,3 +22,4 @@ source ~/.config/nvim/plug-settings/tagbar.vim
 source ~/.config/nvim/plug-settings/ulti-snippets.vim
 source ~/.config/nvim/plug-settings/undotree.vim
 source ~/.config/nvim/plug-settings/vim-dev-icons.vim
+source ~/.config/nvim/plug-settings/vimspector.vim

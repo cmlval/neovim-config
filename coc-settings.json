@@ -5,7 +5,8 @@
         "html",
         "python",
         "xml",
-        "java"
+        "java",
+        "css"
     ],
     // python config
     "python.jediEnabled": false,
