@@ -31,7 +31,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "Plug 'scrooloose/nerdtree'
-Plug 'christoomey/vim-tmux-navigator'
+"Plug 'christoomey/vim-tmux-navigator'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'rust-lang/rust.vim'
