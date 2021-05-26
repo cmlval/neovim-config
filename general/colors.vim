@@ -4,5 +4,5 @@ syntax on
 highlight link JavaIdentifier NONE
 "adjust python highlight
 let g:python_highlight_all = 1
-set termguicolors
+"set termguicolors
 set background=dark
