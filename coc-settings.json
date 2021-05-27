@@ -1,25 +1,36 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": [
-        "json",
-        "markdown",
-        "html",
-        "css",
-        "javascript",
-        "typescript",
-        "python",
-        "xml",
-        "java"
-    ],
-    "python.jediEnabled": false,
-    "python.formatting.provider": "autopep8",
-    "python.autoComplete.extraPaths": [
-        "libqtile"
-    ],
-    "json.format.enable": true,
-    "xml.format.enabled": true,
-    "xml.format.joinContentLines": true,
-    "xml.format.splitAttributes": true,
-    "explorer.width": 30,
-    "explorer.icon.enableNerdfont": true,
-    "explorer.previewAction.onHover": false
+	"coc.preferences.formatOnSaveFiletypes": [
+		"json",
+		"markdown",
+		"html",
+		"css",
+		"javascript",
+		"typescript",
+		"python",
+		"xml",
+		"java"
+	],
+	"python.jediEnabled": false,
+	"python.formatting.provider": "autopep8",
+	"python.autoComplete.extraPaths": [
+		"libqtile"
+	],
+	"json.format.enable": true,
+	"xml.format.enabled": true,
+	"xml.format.joinContentLines": true,
+	"xml.format.splitAttributes": true,
+	"explorer.width": 30,
+	//explorer
+	"explorer.icon.enableNerdfont": true,
+	"explorer.previewAction.onHover": false,
+	"explorer.icon.enableNerdfont": true,
+	"  explorer.previewAction.onHover": true,
+	"  explorer.keyMappings.global": {
+		" <cr>": [
+			"expandable?",
+			"expand",
+			"open"
+		],
+		"v": "open:vsplit"
+	}
 }
