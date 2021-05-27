@@ -20,8 +20,10 @@ nnoremap <silent> <down> :resize -5<CR>
 nnoremap <leader>w :w<CR>
 
 "you split a terminal with a size of 15
-vnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
-nnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+vnoremap <c-t> :split<CR>:ter<CR>
+":resize 15<CR>
+nnoremap <c-t> :split<CR>:ter<CR>
+":resize 15<CR>
 
 " Move to the next buffer
 " Move to the prevoius buffer
