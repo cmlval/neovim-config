@@ -18,7 +18,7 @@ nnoremap <silent> <down> :resize -5<CR>
 "with leader w you save the file if it have a name set. The second command
 "open your config file
 nnoremap <leader>w :w<CR>
-
+tnoremap <Esc> <C-\><C-n>
 "you split a terminal with a size of 15
 vnoremap <c-t> :split<CR>:ter<CR>
 ":resize 15<CR>
