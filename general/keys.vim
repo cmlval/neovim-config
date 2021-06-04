@@ -2,7 +2,7 @@
 nmap <F5> :source ~/.config/nvim/init.vim<CR>
 vmap <F5> :source ~/.config/nvim/init.vim<CR>
 
-"disable the arrow keys to navigate. This is very useful when you want to
+"disable the arrow keys to navigate. This is very useful when you want toG
 "adapt to 'hjkl'
 noremap <up> <nop>
 noremap <down> <nop>

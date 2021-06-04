@@ -46,8 +46,8 @@ Plug 'mbbill/undotree'
 "code modification
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-Plug 'honza/vim-snippets'
-Plug 'sirver/ultisnips'
+"Plug 'honza/vim-snippets'
+"Plug 'sirver/ultisnips'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
