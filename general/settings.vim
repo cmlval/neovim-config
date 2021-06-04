@@ -38,3 +38,9 @@ highlight ColoColumn ctermbg=0 guibg=lightgrey
 "this sets the directions of the splits
 set splitbelow
 set splitright
+
+"if has('python')
+"    set pyx=2
+"elseif has('python3')
+"    set pyx=3
+"endif
