@@ -34,7 +34,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-""Plug 'KabbAmine/vCoolor.vim'
+"Plug 'KabbAmine/vCoolor.vim'
 Plug 'easymotion/vim-easymotion'
 "Plug 'rust-lang/rust.vim'
 "Plug 'cespare/vim-toml'
@@ -46,7 +46,7 @@ Plug 'mbbill/undotree'
 "code modification
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-"Plug 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 Plug 'sirver/ultisnips'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'

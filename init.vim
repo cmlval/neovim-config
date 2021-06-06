@@ -15,13 +15,13 @@ source ~/.config/nvim/plug-settings/coc.vim
 source ~/.config/nvim/plug-settings/easy-motion.vim
 source ~/.config/nvim/plug-settings/emmet.vim
 source ~/.config/nvim/plug-settings/fzf.vim
-source ~/.config/nvim/plug-settings/nerdtree.vim
 "source ~/.config/nvim/plug-settings/rust.vim
 source ~/.config/nvim/plug-settings/signify.vim
 source ~/.config/nvim/plug-settings/tagbar.vim
 source ~/.config/nvim/plug-settings/ulti-snippets.vim
 source ~/.config/nvim/plug-settings/undotree.vim
 source ~/.config/nvim/plug-settings/vim-dev-icons.vim
+source ~/.config/nvim/plug-settings/nerdtree.vim
 "source ~/.config/nvim/plug-settings/vimspector.vim
 source ~/.config/nvim/plug-settings/go.vim
-"source ~/.config/nvim/plug-settings/tmux.vim
+source ~/.config/nvim/plug-settings/tmux.vim
