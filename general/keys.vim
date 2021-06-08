@@ -1,6 +1,6 @@
 "Use F5 to refresh your editor with the config file that you specify here
-nmap <F5> :source ~/.config/nvim/init.vim<CR>
-vmap <F5> :source ~/.config/nvim/init.vim<CR>
+"nmap <F5> :source ~/.config/nvim/init.vim<CR>
+"vmap <F5> :source ~/.config/nvim/init.vim<CR>
 
 "disable the arrow keys to navigate. This is very useful when you want toG
 "adapt to 'hjkl'
@@ -18,7 +18,7 @@ nnoremap <silent> <down> :resize -5<CR>
 "with leader w you save the file if it have a name set. The second command
 "open your config file
 nnoremap <leader>w :w<CR>
-tnoremap <Esc> <C-\><C-n>
+tnoremap <leader><Esc> <C-\><C-n>
 "you split a terminal with a size of 15
 vnoremap <c-t> :split<CR>:ter<CR>
 ":resize 15<CR>
@@ -42,3 +42,5 @@ nnoremap <leader>sp :sp<CR>
 
 " clear search results
 nnoremap <silent> // :noh<CR>
+
+"au VimEnter * if eval("@%") == "" | e ~/Desktop/now.md | endif

@@ -1,6 +1,6 @@
 "set the map leader
 let mapleader = " "
-
+"set buftype=" "
 set encoding=utf-8
 set mouse=a "this enable the mouse compatibility
 set clipboard=unnamedplus "to set the main clipboard to vim. It needs xclip o xcel. Other value is unnamed
